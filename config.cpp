@@ -9,6 +9,19 @@ class CfgPatches
 	};
 };	
 
+class CfgFunctions
+{
+	class Jagers_Box
+	{
+		class FUNCTIONS
+		{
+			file = "J4-trial\functions";
+			class spawnWeapon{};
+			class spawnDefense{};
+		};
+	};
+};
+
 class CfgVehicles
 {
 	class Box_NATO_WpsSpecial_F;
@@ -18,11 +31,6 @@ class CfgVehicles
 		scopeCurator = 2;
 		side = 3;
 		editorCategory = "Supplies";
-<<<<<<< Updated upstream
-		displayName = "J4 Mystery Box"
-	}:
-}:
-=======
 		displayName = "J4 Mystery Box";
 		class EventHandlers
 		{
@@ -30,4 +38,3 @@ class CfgVehicles
 		};
 	};
 };
->>>>>>> Stashed changes
