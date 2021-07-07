@@ -29,8 +29,6 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		side = 3;
-		editorCategory = "Supplies";
 		displayName = "J4 Mystery Box";
 		class EventHandlers
 		{
